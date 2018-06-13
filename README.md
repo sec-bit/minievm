@@ -2,6 +2,7 @@
 
 This is a mini Ethereum runtime virutal machine to test and verify the smart contracts. The core runtime codes are from [Go Ethereum](https://github.com/ethereum/go-ethereum).
 
+[![Build Status](https://travis-ci.org/sec-bit/minievm.svg?branch=master)](https://travis-ci.org/sec-bit/minievm)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sec-bit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Running
