@@ -1,7 +1,10 @@
 SOL_BINS ?= $(shell find ./sols -name *.sol 2> /dev/null | sed s/\\.sol/.bin/)
 
-.PHONY: all clean
-all: gucumber $(SOL_BINS)
+.PHONY: all test clean
+all:
+	@go install
+
+test: gucumber $(SOL_BINS)
 	@gucumber
 
 %.bin: %.sol
